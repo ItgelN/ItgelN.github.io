@@ -11644,3 +11644,13 @@ pre {
 .section.bg-gray {
   background: white;
 }
+footer {
+  width: 100%;
+  background: var(--primary);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.5s;
+}
